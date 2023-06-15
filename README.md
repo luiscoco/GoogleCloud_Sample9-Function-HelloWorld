@@ -20,10 +20,15 @@ public class Function : IHttpFunction
 ```
 
 ## Deploying the function
-Run the command. IMPORTANT. Do not forget to replace the PROJECT-ID for your GoogleCloud projec-id:
+Navigate inside the project path (where the project file is located "HelloWorld.csproj"):
+
+C:\Google Cloud .Net\dotnet-docs-samples-main\functions\helloworld\HelloWorld>gcloud functions deploy my-first-function --entry-point HelloWorld.Function --runtime dotnet6 --trigger-http --allow-unauthenticated --project PROJECT-ID
+
+Run the command:
 ```
 gcloud functions deploy my-first-function --entry-point HelloWorld.Function --runtime dotnet6 --trigger-http --allow-unauthenticated --project PROJECT-ID
 ```
+IMPORTANT! Do not forget to replace the PROJECT-ID for your GoogleCloud projec-id:
 
 ## Testing the deployed function
 
