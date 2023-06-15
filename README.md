@@ -24,7 +24,7 @@ Navigate inside the project path (where the project file is located "HelloWorld.
 
 C:\Google Cloud .Net\dotnet-docs-samples-main\functions\helloworld\HelloWorld>gcloud functions deploy my-first-function --entry-point HelloWorld.Function --runtime dotnet6 --trigger-http --allow-unauthenticated --project PROJECT-ID
 
-Run the command:
+Open the command prompt and run the command:
 ```
 gcloud functions deploy my-first-function --entry-point HelloWorld.Function --runtime dotnet6 --trigger-http --allow-unauthenticated --project PROJECT-ID
 ```
